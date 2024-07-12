@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <style>
+                *{
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				list-style: none;
+				box-sizing: border-box;
+				font-family: Verdana;
+			}
+			body{
+				background-color: lemonchiffon;
+				animation-name: body;
+            	animation-duration: 4s;
+			}
+			nav{
+				background: #0E402D;
+				height: 80px;
+				width: 100%;
+				
+			}
+			label.logo{
+				color: #ead69d;
+				font-size: 25px;
+				line-height: 80px;
+				padding: 0 35px;
+				font-weight: bold;
+			}
+			nav ul{
+				float: right;
+				margin-right: 35px; 
+				padding-top: 3px;
+				
+			}
+			nav ul li{
+				display: inline-block;
+				line-height: 80px;
+				margin: 0 12px;
+			}
+			nav ul li a{
+				color: #ead69d;
+				font-size: 15px;
+			}
+			a.active,a:hover{
+				color: greenyellow;
+				transition: .5s;
+			}
+			#container{
+				position: relative;
+				margin: 0 auto;
+				width: 1100px;
+				background: #0E402D;
+			}
+			#middle{
+				padding-bottom: 30px;
+			}
+			#hdr{
+				height: 200px;
+			}
+			#bttmbar{
+				text-align: center;
+				font-size: 0.70em;
+				height: 4em;
+				line-height: 4em; 
+				border-top: 1px solid lemonchiffon;
+			}
+			#tabletitle{
+				padding-bottom: 10px;
+				text-align: left;
+			}
+			td{
+				
+				padding-left: 10px;
+				padding-right: 10px;
+				
+			}
+			table{
+				width: 93%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			}
+			tr.spaceUnder>td {
+  				padding-bottom: 2em;
+			}
+			@keyframes body {
+            	33.4%   {background-color: #ffffb7;}
+            	66.7%  {background-color: #fff192;}
+            	100% {background-color: lemonchiffon;}
+        	}
+            </style>
+            <title>Education</title>
+        </head>
+    <body>
+
+        <div id="container">
+            <header>
+                <div>
+                    <nav>
+                        <label class="logo"><a href="index.html" style="color: #ead69d"> MY PERSONAL WEBSITE</a></label>
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="hobby.html">HOBBY</a></li>
+                                <li><a href="gallery.html">GALLERY</a></li>
+                                <li><a href="education.html">EDUCATION</a></li>
+                            </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="middle">
+                <div>
+					<br>
+					<br>
+					<h2 style="color: lemonchiffon; text-align: center; font-family:Century Gothic ;">Education</h2>
+					<br>
+					<br>
+                    <table>
+						<!-- kalau nak tukar size gap, pergi dekat css class spaceUnder yang orang baru tambah -->
+                        <tr class="spaceUnder">
+							<td><img src="images/graduated.jpeg" alt="graduated" height="430" width="230"></td>
+							<td style="color: #fafbf4; text-align: justify; font-size: 17px; line-height: 2.0;">
+								This is my graduate day. I'm successfully graduated from Diploma in Computer Science 
+								in UMP (Universiti Malaysia Pahang). This is my happiest day as I made my family proud 
+								and got to graduated with my beloved friends. I'm hoping the same for this Degree.
+							</td>
+						</tr>
+						<tr class="spaceUnder">
+							<td style="color: #fafbf4; text-align: justify; font-size: 17px; line-height: 2.0;">
+								This is my intern days while I was pursuing Diploma. It is a last semester before graduated. 
+								I was an intern at Majlis Bandaraya Kuantan (MBK) in IT department. Meanwhile I was given a 
+								task which is developing a system, I also solved the problems that related to the computers
+								and network along with other interns. This gives me a good experience as I can implement
+								in my daily life.
+							</td>
+							<td><img src="images/intern.jfif" alt="intern" height="240" width="320"></td>
+						</tr>
+						<tr class="spaceUnder">
+							<td><img src="images/fyp.jpeg" alt="fyp" height="381.5" width="230"></td>
+							<td style="color: #fafbf4; text-align: justify; font-size: 17px; line-height: 2.0;">
+								For my final year project (FYP) during diploma, I developed a system named 
+								"UMP Discussion Room Booking System" supervised by Dr. Zuriani. I got Bronze in FYPRO-COM where the
+								chosen students will present the developed system to the industry or companies that invited. It was
+								a good experience for me as I can feel the realistic comments from the judgers other than 
+								lecturers.
+							</td>
+						</tr>
+						<tr class="spaceUnder">
+							<td style="color: #fafbf4; text-align: justify; font-size: 17px; line-height: 2.0;">
+								I studied in SMK Seksyen 3 Bandar Kinrara or known as SEMESTIB in Puchongh, Selangor 
+								since Form 1 in 2015 until Form 5 in 2019. I took Accounting and Arabic for my SPM. 
+								I have a wonderful days throughout my highschool life. The school is not far from my 
+								home since I regularly walking for 10-15 minutes instead of using transportation.
+							</td>
+							<td><img src="images/smk.png" alt="intern" height="225" width="225"></td>
+						</tr>
+                    </table>
+                </div>
+
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <br><br>
+                <div id="bttmbar" style="color: lemonchiffon">&copy; ainasafiah</div>
+            
+        </div>
+</div>
+    </body>
+</html>
